@@ -1,0 +1,17 @@
+>>>If u need simple configuration
+https://github.com/iw4p/OpenConnect-VPN-Server
+
+curl -O https://raw.githubusercontent.com/iw4p/OpenConnect-VPN-Server/master/ocserv-install.sh
+chmod +x ocserv-install.sh
+./ocserv-install.sh
+
+>>>If u need configuration with domain
+https://github.com/xhdix/openconnect-installer
+
+https://www.linuxbabe.com/debian/openconnect-vpn-server-ocserv-debian-10-buster
+
+>>> TO connect LINUX CLient
+
+sudo apt install openconnect
+sudo openconnect -b vpn.mydomain.com
+sudo pkill openconnect
